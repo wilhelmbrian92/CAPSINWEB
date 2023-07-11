@@ -11,8 +11,19 @@
     <form id="form1" runat="server">
         <div>
         </div>
+        <asp:Panel ID="Panel1" runat="server" Height="179px" Width="367px">
+            <asp:Label ID="lblLogin" runat="server" Text="Login"></asp:Label>
+            <br />
+            <br />
+            <asp:Label ID="lblUsuario" runat="server" Text="Usuario:"></asp:Label>
+            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            <br />
+            <asp:Label ID="lblContraseña" runat="server" Text="Contraseña:"></asp:Label>
+            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+            <br />
+            <br />
+            <asp:Button ID="btnAceptar" runat="server" Text="Aceptar" />
+        </asp:Panel>
     </form>
-    <p>
-        x</p>
 </body>
 </html>
